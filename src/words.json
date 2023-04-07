@@ -1,0 +1,55 @@
+{
+  "id": 1,
+  "success": [
+    {
+      "id": 1,
+      "english": "achievement",
+      "ukrainian": "досягнення"
+    },
+    {
+      "id": 2,
+      "english": "aim",
+      "ukrainian": "маха́ти"
+    },
+    {
+      "id": 3,
+      "english": "motivation",
+      "ukrainian": "мотивація"
+    },
+    {
+      "id": 4,
+      "english": "obstacle",
+      "ukrainian": "перешкода"
+    },
+    {
+      "id": 5,
+      "english": "overcome",
+      "ukrainian": "подолати"
+    },
+    {
+      "id": 6,
+      "english": "realize",
+      "ukrainian": "реалізувати"
+    },
+    {
+      "id": 7,
+      "english": "success",
+      "ukrainian": "успіх"
+    },
+    {
+      "id": 8,
+      "english": "goal",
+      "ukrainian": "ціль"
+    },
+    {
+      "id": 9,
+      "english": "confidence",
+      "ukrainian": "впевненість"
+    },
+    {
+      "id": 10,
+      "english": "disappointment",
+      "ukrainian": "розчарування"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+.container {
+  padding: 50px;
+}
+
+.title {
+  margin-top: 0;
+}
+
+.card {
+  border: 1px solid black;
+  width: 200px;
+  height: 100px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  text-align: center;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.vocabularyLink {
+  text-decoration: none;
+  color: #252525;
+}
