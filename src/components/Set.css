@@ -8,14 +8,22 @@
 }
 
 .wordCard {
+  position: relative;
   padding: 20px;
   font-size: 24px;
   line-height: 1.4;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  height: 150px;
+  height: fit-content;
   background-color: #8fe7f7;
   border: none;
   border-radius: 10px;
+}
+
+.correctText {
+  text-align: center;
+  margin-bottom: 0;
+  color: green;
+  opacity: 0;
+}
+.correctText.isShown {
+  opacity: 1;
 }
