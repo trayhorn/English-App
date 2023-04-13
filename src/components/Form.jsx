@@ -2,7 +2,7 @@ import { useState } from "react";
 import TextField from "@mui/material/TextField";
 import './Form.css';
 
-export default function Form({ ukrainian, showToggle }) {
+export default function Form({ ukrainian }) {
   const [inputResult, setInputResult] = useState('');
   const [isWrong, setIsWrong] = useState(false);
 	const [showCorrect, setShowCorrect] = useState(false);
@@ -24,12 +24,9 @@ export default function Form({ ukrainian, showToggle }) {
 
   return (
     <>
-      <form
-        className='form'
-        autoComplete="off"
-        onSubmit={handleSubmit}
-      >
+      <form className="form" autoComplete="off" onSubmit={handleSubmit}>
         <TextField
+          fullWidth
           error={isWrong}
           className="error"
           id="outlined-basic"
