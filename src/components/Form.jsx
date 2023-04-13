@@ -28,7 +28,6 @@ export default function Form({ ukrainian }) {
         <TextField
           fullWidth
           error={isWrong}
-          className="error"
           id="outlined-basic"
           variant="outlined"
           size="small"

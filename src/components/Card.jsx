@@ -3,10 +3,18 @@ import Form from "./Form";
 
 export default function Card({ english, ukrainian }) {
   const [flip, setFlip] = useState(false);
-  
+
+  const handleFlip = e => {
+    if (!e.target.className.includes('input')) {
+      setFlip(prev => !prev);
+    } else {
+      return;
+    }
+  }
+
   return (
     <div
-      onClick={() => setFlip(prev => !prev)}
+      onClick={(e) => handleFlip(e)}
       className={`wordCard ${flip ? 'flip' : ''}`}
     >
       <div className="front">
