@@ -1,9 +1,8 @@
-import words from "../words.json";
-import Card from "./Card";
+import words from "../../words.json";
+import Card from "../Card";
 import './Set.css';
 
 export default function Set() {
-
 	return (
     <div className="container">
       <h1 style={{ textAlign: 'center' }}>Success</h1>

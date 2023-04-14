@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Form from "./Form";
+import Form from "./Form/Form";
 
 export default function Card({ english, ukrainian }) {
   const [flip, setFlip] = useState(false);
